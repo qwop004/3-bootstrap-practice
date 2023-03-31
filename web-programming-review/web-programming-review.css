@@ -13,6 +13,63 @@
  * 필요에 따라 추가 선택자를 추가하십시오. 
  */
 body {
+  background: (255, 0, 0, 40);
   margin: 0;
   padding: 0;
 }
+
+header {
+  border-bottom: 1px solid lightgray;
+  background: gainsboro;
+  box-shadow: 10px 0px 20px gray;
+}
+
+#top-menu{
+
+}
+
+.container{
+  width: 380px;
+  height: 72px;
+  background: red;
+  margin: auto;
+}
+
+.container-left{
+  padding-top: 20px;
+  padding-bottom: 30px;
+  background: green;
+
+}
+
+.logo{
+  margin: 0 5px 0 20px;
+  float: left;
+}
+
+.site-title{
+  display: inline;
+  font-size: 1.5rem; /* 150%  >> 그냥 그대로 써도 됨. px로 써도 됨.*/
+  line-height: 1;
+  margin: 0 10px 0 0;
+}
+
+nav .menu{ /* 메뉴클래스가 있는 네비메뉴 띄어쓰기포함 */
+  float: left;
+}
+
+nav.menu-item, #menu-button{
+  font-size: 16px;
+  padding: 8px 10px; /*상하 8 좌우 10 */
+  float: left;
+  line-height:1;
+}
+
+#menu-button{
+  display: relative;
+  z-index: 1050;
+  display: left;
+  right: 0;
+}
+
+
